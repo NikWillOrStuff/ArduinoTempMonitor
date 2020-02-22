@@ -70,6 +70,8 @@ void setColor(float *colors) { //expects float values between 0 and 1
   analogWrite(bluePin, b2);
 }
 
+// the following code was obtained from here: https://gist.github.com/postspectacular/2a4a8db092011c6743a7
+
 // HSV->RGB conversion based on GLSL version
 // expects hsv channels defined in 0.0 .. 1.0 interval
 float fract(float x) { return x - int(x); }
